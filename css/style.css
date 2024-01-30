@@ -62,8 +62,28 @@ img {
   background: rgba(0, 0, 0, .5);
 }
 
+/* SIDE-NAV */
+
 .side-nav {
   grid-area: side-nav;
+  background: #fafbfc;
+  padding: 30px;
+}
+
+.side-nav li a {
+  display: block;
+  min-width: 100px;
+  width: 140px;
+  margin: 0 auto 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0 rgba(44, 44, 44, .15);
+  transition: .2s ease-out;
+}
+
+.side-nav li a:hover {
+  background: #B07DFB;
 }
 
 .content {
