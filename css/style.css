@@ -8,12 +8,14 @@
 }
 
 body {
-  font-family: 'Volkorn', Georgia, serif;
+  font-family: 'Vollkorn', Georgia, serif;
 }
 
 img {
   max-width: 100%;
   height: auto;
+  display: block;
+  border-radius: 5px;
 }
 
 /* GRID GERAL */
@@ -86,14 +88,33 @@ img {
   background: #B07DFB;
 }
 
+/* CONTENT */
+
 .content {
   grid-area: content;
 }
 
+/* ANUNCIOS */
+
 .anuncios {
   grid-area: anuncios;
+  background: #fafbfc;
+  display: grid;
+  align-content: start;
+  padding: 30px;
+  gap: 30px;
 }
+
+/* FOOTER */
 
 .footer {
   grid-area: footer;
+  background: linear-gradient(135deg, #8844ee, #B07DFB);
+}
+
+.footer p {
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  font-size: 1.2em;
 }
